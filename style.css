@@ -1,0 +1,48 @@
+body{
+    background: radial-gradient(
+        circle,rgba(125, 229, 237,1)0%,rgba(88, 55, 208,1)100%
+    );
+}
+.container{
+    margin-top: 2rem;
+    max-width: 25rem;
+    background: radial-gradient(
+        circle,rgba(125, 229, 237,1)0%,rgba(88, 55, 208,1)100%
+    );
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px #ccc;
+}
+#weatherw{
+    min-height: 18rem;
+    background: #fff;
+    border-radius: 5px;
+}
+.card{
+    width:100%;
+}
+.card .card-subtitle{
+    font-size: 4rem;
+}
+.card .cel:after{
+    font-weight: 400;
+    content:"°C";
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    position: absolute;
+}
+.card .far:after{
+    font-weight: 400;
+    content:"°F";
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    position: absolute;
+}
+.units a{
+    color:#666;
+    text-decoration: none;
+}
+.units a.active{
+    color: #ccc;
+}
+
+
